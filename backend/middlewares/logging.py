@@ -2,8 +2,7 @@ from typing import Callable
 import logging
 import time
 
-from fastapi import (Request,
-                     Response)
+from fastapi import Request, Response
 
 
 logger = logging.getLogger("middleware_logger")
